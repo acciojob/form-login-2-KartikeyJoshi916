@@ -1,8 +1,8 @@
 function display() {
-    let fName = document.getElementById("firstName").value;
-    let lName = document.getElementById("lastName").value;
-    let number = document.getElementById("number").value;
-    let email = document.getElementById("email").value;
+    let fName = document.getElementById("First Name").value;
+    let lName = document.getElementById("Last Name").value;
+    let number = document.getElementById("Phone Number").value;
+    let email = document.getElementById("Email ID").value;
 
     let message = "First Name: " + fName + " " +
                   "Last Name: " + lName + " " +
