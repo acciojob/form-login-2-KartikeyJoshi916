@@ -4,9 +4,9 @@ function display(){
 		let lName=document.getElementById("lastName").value;
 		let number=document.getElementById("number").value;
 		let email=document.getElementById("email").value;
-	 let message = "First Name: " + fName + "\n" +
-                  "Last Name: " + lName + "\n" +
-                  "Phone Number: " + number + "\n" +
+	 let message = "First Name: " + fName + " "+
+                  "Last Name: " + lName + " "+
+                  "Phone Number: " + number + " "+
                   "Email ID: " + email;
 
 	alert(message);
