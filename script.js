@@ -1,14 +1,13 @@
 //your JS code here. If required.
 function display(){
-	alert(
-		let fName=document.getElementById("firstName");
-		let lName=document.getElementById("lastName");
-		let number=document.getElementById("number");
-		let email=document.getElementById("email");
-		console.log("First Name: "+fName.value+
-					"Last Name: "+lName.value+
-					"Phone Number: "+number.value+
-					"Email ID: "+email.value
-				   );
-	);
+		let fName=document.getElementById("firstName").value;
+		let lName=document.getElementById("lastName").value;
+		let number=document.getElementById("number").value;
+		let email=document.getElementById("email").value;
+	 let message = "First Name: " + fName + "\n" +
+                  "Last Name: " + lName + "\n" +
+                  "Phone Number: " + number + "\n" +
+                  "Email ID: " + email;
+
+	alert(message);
 }
